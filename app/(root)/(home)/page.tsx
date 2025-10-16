@@ -25,7 +25,7 @@ const Home = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setTimeDate(getISTTimeAndDate());
-    }, 60000); // 60 seconds
+    }, 30); // 60 seconds
     return () => clearInterval(interval);
   }, []);
 
