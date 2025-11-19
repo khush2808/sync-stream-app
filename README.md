@@ -16,12 +16,12 @@ This is a Gmeet Clone built with Nextjs and Streamio for Video transmission/reco
 
 
 
-## <a name="introduction Introduction</a>
+## Introduction
 
 Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.
 
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## ⚙️ Tech Stack
 
 - Next.js
 - TypeScript
@@ -30,7 +30,7 @@ Built with the latest Next.js and TypeScript, this project replicates Zoom, a wi
 - shadcn
 - Tailwind CSS
 
-## <a name="features">🔋 Features</a>
+## Features
 
 
 👉 **Authentication**: Implements authentication and authorization features using Clerk, allowing users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
@@ -57,7 +57,7 @@ Built with the latest Next.js and TypeScript, this project replicates Zoom, a wi
 
 and many more, including code architecture and reusability. 
 
-## <a name="quick-start Quick Start</a>
+## Quick Start
 
 Follow these steps to set up the project locally on your machine.
 
