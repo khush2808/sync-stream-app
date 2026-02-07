@@ -75,28 +75,30 @@ const MeetingTypeList = () => {
         img="/icons/add-meeting.svg"
         title="New Meeting"
         description="Start an instant meeting"
-        iconClassName="bg-orange-1"
         handleClick={() => setMeetingState('isInstantMeeting')}
       />
       <HomeCard
         img="/icons/join-meeting.svg"
         title="Join Meeting"
         description="via invitation link"
-        iconClassName="bg-blue-1"
+        className="border-blue-1"
+        iconClassName="bg-blue-1/20"
         handleClick={() => setMeetingState('isJoiningMeeting')}
       />
       <HomeCard
         img="/icons/schedule.svg"
         title="Schedule Meeting"
         description="Plan your meeting"
-        iconClassName="bg-purple-1"
+        className="border-purple-1"
+        iconClassName="bg-purple-1/20"
         handleClick={() => setMeetingState('isScheduleMeeting')}
       />
       <HomeCard
         img="/icons/recordings.svg"
         title="View Recordings"
         description="Meeting Recordings"
-        iconClassName="bg-yellow-1"
+        className="border-yellow-1"
+        iconClassName="bg-yellow-1/20"
         handleClick={() => router.push('/recordings')}
       />
 
