@@ -18,13 +18,13 @@ const HomeCard = ({ className, img, title, description, handleClick, style, icon
   return (
     <section
       className={cn(
-        'bg-dark-3 px-4 py-6 flex flex-col justify-between w-full xl:max-w-[270px] min-h-[260px] rounded-[14px] cursor-pointer border-b-[3px] border-orange-1 hover:brightness-110 transition-all',
+        'px-4 py-6 flex flex-col justify-between w-full xl:max-w-[270px] min-h-[260px] rounded-[14px] cursor-pointer border border-white/10 hover:border-white/20 transition-all',
         className
       )}
       style={style}
       onClick={handleClick}
     >
-      <div className={cn('flex-center size-12 rounded-[10px] bg-orange-1/20', iconClassName)}>
+      <div className={cn('flex-center size-12 rounded-[10px] bg-white/20 backdrop-blur-sm', iconClassName)}>
         <Image src={img} alt="meeting" width={27} height={27} />
       </div>
       
