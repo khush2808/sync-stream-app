@@ -24,7 +24,7 @@ const HomeCard = ({ className, img, title, description, handleClick, style, icon
       style={style}
       onClick={handleClick}
     >
-      <div className={cn('flex-center size-14 rounded-xl bg-orange-1', iconClassName)}>
+      <div className={cn('flex-center size-14 rounded-xl', iconClassName)}>
         <Image src={img} alt="meeting" width={28} height={28} />
       </div>
       
