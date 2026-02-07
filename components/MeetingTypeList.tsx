@@ -81,21 +81,21 @@ const MeetingTypeList = () => {
         img="/icons/join-meeting.svg"
         title="Join Meeting"
         description="via invitation link"
-        className="bg-blue-1"
+        className="border-blue-1"
         handleClick={() => setMeetingState('isJoiningMeeting')}
       />
       <HomeCard
         img="/icons/schedule.svg"
         title="Schedule Meeting"
         description="Plan your meeting"
-        className="bg-purple-1"
+        className="border-purple-1"
         handleClick={() => setMeetingState('isScheduleMeeting')}
       />
       <HomeCard
         img="/icons/recordings.svg"
         title="View Recordings"
         description="Meeting Recordings"
-        className="bg-yellow-1"
+        className="border-yellow-1"
         handleClick={() => router.push('/recordings')}
       />
 
