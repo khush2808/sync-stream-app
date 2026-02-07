@@ -75,27 +75,28 @@ const MeetingTypeList = () => {
         img="/icons/add-meeting.svg"
         title="New Meeting"
         description="Start an instant meeting"
+        style={{ background: 'linear-gradient(135deg, #252A41 0%, #FF742E 100%)' }}
         handleClick={() => setMeetingState('isInstantMeeting')}
       />
       <HomeCard
         img="/icons/join-meeting.svg"
         title="Join Meeting"
         description="via invitation link"
-        className="border-blue-1"
+        style={{ background: 'linear-gradient(135deg, #252A41 0%, #0E78F9 100%)' }}
         handleClick={() => setMeetingState('isJoiningMeeting')}
       />
       <HomeCard
         img="/icons/schedule.svg"
         title="Schedule Meeting"
         description="Plan your meeting"
-        className="border-purple-1"
+        style={{ background: 'linear-gradient(135deg, #252A41 0%, #830EF9 100%)' }}
         handleClick={() => setMeetingState('isScheduleMeeting')}
       />
       <HomeCard
         img="/icons/recordings.svg"
         title="View Recordings"
         description="Meeting Recordings"
-        className="border-yellow-1"
+        style={{ background: 'linear-gradient(135deg, #252A41 0%, #F9A90E 100%)' }}
         handleClick={() => router.push('/recordings')}
       />
 

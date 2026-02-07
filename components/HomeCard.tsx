@@ -10,15 +10,17 @@ interface HomeCardProps {
   title: string;
   description: string;
   handleClick?: () => void;
+  style?: React.CSSProperties;
 }
 
-const HomeCard = ({ className, img, title, description, handleClick }: HomeCardProps) => {
+const HomeCard = ({ className, img, title, description, handleClick, style }: HomeCardProps) => {
   return (
     <section
       className={cn(
-        'bg-dark-3 border-l-4 border-orange-1 px-4 py-6 flex flex-col justify-between w-full xl:max-w-[270px] min-h-[260px] rounded-[14px] cursor-pointer hover:bg-dark-4 transition-colors',
+        'bg-dark-3 px-4 py-6 flex flex-col justify-between w-full xl:max-w-[270px] min-h-[260px] rounded-[14px] cursor-pointer',
         className
       )}
+      style={style}
       onClick={handleClick}
     >
       <div className="flex-center glassmorphism size-12 rounded-[10px]">
